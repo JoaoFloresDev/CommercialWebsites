@@ -14,9 +14,20 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" ">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat " rel="stylesheet ">
 	<link rel="stylesheet " href="assets/css/style.css ">
+
+	
 </head>
 
 <body>
+
+	<!-- NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
+        <div class="container ">
+            <a class="navbar-brand " href="# ">Kenji Sushi Bar</a>
+        </div>
+    </nav>
+	<br><br>
+	
 	<main class="page ">
 		
 		<section class="shopping-cart ">
@@ -58,7 +69,7 @@
 						</div>
 					</div>
 					<div class="fixed-bottom ">
-							<button type="button " class="btn btn-primary btn-lg btn-block largeButton ">Fazer Pedido</button>
+							<button type="button " class="btn btn-primary btn-lg btn-block largeButton " onclick=" relocate_detail1() ">Fazer Pedido</button>
 					</div>
 				</div> 
 				
@@ -84,3 +95,9 @@
 </body>
 
 </html>
+
+<script>
+	function relocate_detail1() {
+		location.href = "demos/itemsCustom.html ";
+	}
+</script>
